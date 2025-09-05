@@ -11,7 +11,7 @@ public class UsaTv {
         int opcao = -1;
 
         while (opcao != 7) {
-            System.out.println("0 - Desligar a TV");
+            System.out.println("\n0 - Desligar a TV");
             System.out.println("1 - Ligar a TV");
             System.out.println("2 - Aumentar volume");
             System.out.println("3 - Diminuir volume");
@@ -36,6 +36,8 @@ public class UsaTv {
                 tv.diminuirCanal();
             } else if (opcao == 6) {
                 tv.mostrarInfos();
+            } else if (opcao == 7) {
+
             } else {
                 System.out.println("Opção inválida.");
             }
