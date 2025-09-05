@@ -1,4 +1,4 @@
-package aula03_09.TAD.PlanoCartesiano;
+package PlanoCartesiano;
 
 public class PlanoCartesiano {
        Ponto pontos[] = new Ponto[10];

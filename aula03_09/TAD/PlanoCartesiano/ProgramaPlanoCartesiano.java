@@ -1,4 +1,4 @@
-package aula03_09.TAD.PlanoCartesiano;
+package PlanoCartesiano;
 
 public class ProgramaPlanoCartesiano {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package aula03_09.TAD.Cubo;
+package Cubo;
 
 public class CalculoCubo {
     Cubo cubo = new Cubo();

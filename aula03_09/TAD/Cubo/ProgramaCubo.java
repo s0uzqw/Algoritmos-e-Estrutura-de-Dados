@@ -1,4 +1,4 @@
-package aula03_09.TAD.Cubo;
+package Cubo;
 
 public class ProgramaCubo {
     public static void main(String[] args) {
