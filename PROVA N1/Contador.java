@@ -5,7 +5,6 @@ public class Contador {
 
     int valorInit = 0;
 
-
     public void inserirValor() {
         System.out.println("Digite o valor inicial: ");
         valorInit = entrada.nextInt();
