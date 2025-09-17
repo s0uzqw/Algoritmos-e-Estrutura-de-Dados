@@ -23,4 +23,12 @@ public class BubbleSortExemplo1 {
         } while (continua != 0);
     }
 
+    public static void main(String[] args) {
+        int vetor[] = {5, 10, 2, 7, -1, 3, 8};
+        bubbleSort(vetor);
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.println(vetor[i]);
+        }
+    }
+
 }
