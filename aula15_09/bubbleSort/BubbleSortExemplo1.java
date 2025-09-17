@@ -1,14 +1,14 @@
-package aula15_09.ordenacao.bubblesort;
+package aula15_09.bubbleSort;
 
 public class BubbleSortExemplo1 {
 
-    static void troca(int v[], int atual, int proximo) {
+    public static void troca(int v[], int atual, int proximo) {
         int aux = v[atual];
         v[atual] = v[proximo];
         v[proximo] = aux;
     }
 
-    static void bubbleSort(int v[]) {
+    public static void bubbleSort(int v[]) {
         int continua, fim;
         fim = v.length;
         do {
@@ -23,11 +23,4 @@ public class BubbleSortExemplo1 {
         } while (continua != 0);
     }
 
-    public static void main(String args[]) {
-        int vetor[] = { 5, 10, 2, 7, -1, 3, 8 };
-        bubbleSort(vetor);
-        for (int i = 0; i < vetor.length; i++) {
-            System.out.println(vetor[i]);
-        }
-    }
 }
