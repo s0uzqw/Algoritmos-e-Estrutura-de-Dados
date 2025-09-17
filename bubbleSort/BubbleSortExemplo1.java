@@ -1,4 +1,4 @@
-package aula15_09.bubbleSort;
+package bubbleSort;
 
 public class BubbleSortExemplo1 {
 

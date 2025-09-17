@@ -1,4 +1,4 @@
-package aula15_09.selectionSort;
+package selectionSort;
 
 public class SelectionSortExemplo1 {
     
