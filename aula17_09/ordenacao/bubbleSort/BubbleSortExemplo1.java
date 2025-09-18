@@ -1,4 +1,4 @@
-package bubbleSort;
+package aula17_09.ordenacao.bubbleSort;
 
 public class BubbleSortExemplo1 {
 
