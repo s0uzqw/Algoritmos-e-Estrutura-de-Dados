@@ -21,7 +21,4 @@ public class exercicio3 {
         }
         entrada.close();
     }
-
-    public static void main(String[] args) {
-        
 }
