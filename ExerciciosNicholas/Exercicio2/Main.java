@@ -21,15 +21,17 @@ public class Main {
 
         System.out.println("Número de inscrição:");
         at.numeroInscricao = entrada.nextInt();
+        entrada.nextLine();
 
         System.out.println("Nome:");
-        at.nome = entrada.next();
+        at.nome = entrada.nextLine();
 
         System.out.println("Tempo em minutos:");
         at.tempoEmMinutos = entrada.nextDouble();
+        entrada.nextLine();
 
         System.out.println("Categoria:");
-        at.categoria = entrada.next();
+        at.categoria = entrada.nextLine();
 
         return at;
     }
