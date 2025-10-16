@@ -2,8 +2,6 @@ package aula09_10.Exercicio1;
 
 import java.util.Scanner;
 
-import aula08_10.busca.binaria.buscaBin;
-
 public class ProgramaEstoque {
 
     static int mostrarMenu() {
